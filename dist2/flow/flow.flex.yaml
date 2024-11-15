@@ -1,0 +1,9 @@
+app_insights_enabled: true
+
+inputs:
+  question:
+    type: string
+  chat_history:
+    type: object
+entry: chat_request:get_response
+
